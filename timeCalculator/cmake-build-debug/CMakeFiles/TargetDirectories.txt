@@ -1,0 +1,3 @@
+C:/Users/DELL/Desktop/C++/timeCalculator/cmake-build-debug/CMakeFiles/timeCalculator.dir
+C:/Users/DELL/Desktop/C++/timeCalculator/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/DELL/Desktop/C++/timeCalculator/cmake-build-debug/CMakeFiles/rebuild_cache.dir

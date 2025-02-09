@@ -17,5 +17,8 @@ int main()
     second = moduloResultOfMinute;
 
     cout <<"the time is:  "<< hour << ":" << minute << ":" << second << endl;
+
+
+    //control structure
     return 0;
 }

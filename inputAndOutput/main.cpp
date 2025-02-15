@@ -47,14 +47,21 @@ int main() {
         // // cin.putback(ch);
         // cout <<"this has been put back into the input buffer (stream) "<< ch <<endl;
 
+    // {
+    //     char ch;
+    //     cout << "enter a character" << endl;
+    //     cin.get(ch);
+    //     cout <<"you entered: " << ch <<endl;
+    //     cin.putback(ch);
+    //     ch = cin.peek();
+    //     cout <<"looking at the current character inline in the input stream: " << ch <<endl;
+    // }
+    cout << "S/N" << " "<<"SQUARE" << " " <<  "CUBE" << endl;
+    for (int index = 0; index < 11; index++)
     {
-        char ch;
-        cout << "enter a character" << endl;
-        cin.get(ch);
-        cout <<"you entered: " << ch <<endl;
-        cin.putback(ch);
-        ch = cin.peek();
-        cout <<"looking at the current character inline in the input stream: " << ch <<endl;
+        int square = index * index;
+        int cube = index * index * index;
+        cout << index << "    " << square  << "     " << cube << endl;
     }
 
     return 0;
